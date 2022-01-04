@@ -9,7 +9,8 @@
 
     --heading-height: 70px;
 
-    --font-family: cursive;
+    --font-family-1: 'Cairo', sans-serif;
+    --font-family-2: 'Potta One', cursive;
 
     --font-size-sm: 0.8rem;
     --font-size: 1rem;
@@ -33,7 +34,8 @@
 }
 
 html, body {
-    font-family: var(--font-family);
+    font-family: var(--font-family-1);
+    font-family: var(--font-family-2);
     font-size: 16px;
     height: 100vh;
     overflow: hidden;
@@ -64,7 +66,7 @@ a{
     font-size: var(--font-size-large);
     font-weight: 900;
     color: var(--color-txt);
-    font-family: Helvetica, Arial;
+    /* font-family: Helvetica, Arial; */
 }
 
 .heading-wrapper .toggle {
