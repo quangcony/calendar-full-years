@@ -63,6 +63,7 @@ a{
 }
 
 .heading-wrapper .logo {
+    display: flex;
     font-size: var(--font-size-large);
     font-weight: 900;
     color: var(--color-txt);
@@ -140,6 +141,10 @@ a{
 
 .calendar-header .month-picker {
     cursor: pointer;
+}
+
+.calendar-header .year {
+    display: flex;
 }
 
 .calendar-header .year .year-change{
@@ -312,8 +317,5 @@ a{
     }
     .calendar {
         min-width: unset;
-    }
-    .heading-wrapper .logo {
-        font-family: 'Cairo', cursive;
     }
 }
