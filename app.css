@@ -313,4 +313,7 @@ a{
     .calendar {
         min-width: unset;
     }
+    .heading-wrapper .logo {
+        font-family: 'Cairo', cursive;
+    }
 }
